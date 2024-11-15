@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AZ204 - Implement Azure Functions Exercise", "AZ204 - Implement Azure Functions Exercise.csproj", "{1ABE1504-0E19-42C1-86CB-9675DD061CD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{2271A982-58A8-42F7-8CBC-7C686E32CF88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{FAA8451C-0766-410F-BCC9-3085AD9871FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{99E551C5-1767-466E-9515-F72826D050D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{8B422C5C-2A59-4D10-A181-16680321CE7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{2A419980-0CE7-4FB4-987F-33BE2D554AEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{1C6038D8-2DB5-49C6-967A-B2D95C9DD14C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "obj\Release\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{4A550DA9-50E0-4801-A9EC-C583B7C77F7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ABE1504-0E19-42C1-86CB-9675DD061CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABE1504-0E19-42C1-86CB-9675DD061CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABE1504-0E19-42C1-86CB-9675DD061CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABE1504-0E19-42C1-86CB-9675DD061CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B422C5C-2A59-4D10-A181-16680321CE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B422C5C-2A59-4D10-A181-16680321CE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B422C5C-2A59-4D10-A181-16680321CE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B422C5C-2A59-4D10-A181-16680321CE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A550DA9-50E0-4801-A9EC-C583B7C77F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A550DA9-50E0-4801-A9EC-C583B7C77F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A550DA9-50E0-4801-A9EC-C583B7C77F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A550DA9-50E0-4801-A9EC-C583B7C77F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAA8451C-0766-410F-BCC9-3085AD9871FF} = {2271A982-58A8-42F7-8CBC-7C686E32CF88}
+		{99E551C5-1767-466E-9515-F72826D050D1} = {FAA8451C-0766-410F-BCC9-3085AD9871FF}
+		{8B422C5C-2A59-4D10-A181-16680321CE7C} = {99E551C5-1767-466E-9515-F72826D050D1}
+		{2A419980-0CE7-4FB4-987F-33BE2D554AEE} = {2271A982-58A8-42F7-8CBC-7C686E32CF88}
+		{1C6038D8-2DB5-49C6-967A-B2D95C9DD14C} = {2A419980-0CE7-4FB4-987F-33BE2D554AEE}
+		{4A550DA9-50E0-4801-A9EC-C583B7C77F7E} = {1C6038D8-2DB5-49C6-967A-B2D95C9DD14C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D5AEB99-2508-486F-B9B7-4FF2D10FF0A7}
+	EndGlobalSection
+EndGlobal

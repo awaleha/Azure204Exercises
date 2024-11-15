@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "AZ204___Implement_Azure_Functions_Exercise": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7164",
+      "launchBrowser": false
+    }
+  }
+}
